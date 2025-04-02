@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 interface ProductGridProps {
 	products: {
-		id: string;
+		id: number;
 		name: string;
 		price: number;
 		image: string;

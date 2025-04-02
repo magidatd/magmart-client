@@ -18,7 +18,7 @@ interface ProductDetailsProps {
 		images: { url: string; altText: string }[];
 	};
 	similarProducts: {
-		id: string;
+		id: number;
 		name: string;
 		price: number;
 		image: string;

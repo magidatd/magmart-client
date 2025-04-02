@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 interface NewArrivalsProps {
 	newArrivals: {
-		id: string;
+		id: number;
 		name: string;
 		price: number;
 		images: { url: string; altText: string }[];

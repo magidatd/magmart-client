@@ -1,7 +1,7 @@
 export const cart = {
 	products: [
 		{
-			productId: '78925',
+			productId: 78925,
 			name: 'Beige Check Slim Waistcoat',
 			size: '36L',
 			colour: 'Beige',
@@ -10,7 +10,7 @@ export const cart = {
 			image: '../src/assets/clothes/378162_main.avif',
 		},
 		{
-			productId: '84788',
+			productId: 84788,
 			name: 'Blue Denim Straight Leg Jeans',
 			size: '28',
 			colour: 'Blue',
@@ -19,7 +19,7 @@ export const cart = {
 			image: '../src/assets/clothes/379474_main.avif',
 		},
 		{
-			productId: '65888',
+			productId: 65888,
 			name: 'Beige Short Sleeve Drape Side Midi Dress',
 			size: 'S',
 			colour: 'Beige',
@@ -28,7 +28,7 @@ export const cart = {
 			image: '../src/assets/clothes/923560_main.avif',
 		},
 		{
-			productId: '21455',
+			productId: 21455,
 			name: 'Blue Denim High Waisted Wide Leg Trousers',
 			size: '14',
 			colour: 'Blue',
@@ -37,7 +37,7 @@ export const cart = {
 			image: '../src/assets/clothes/919045_main.avif',
 		},
 		{
-			productId: '45788',
+			productId: 45788,
 			name: 'Blue Floral Wide Leg Plisse Trousers',
 			size: '10',
 			colour: 'Blue',
@@ -46,7 +46,7 @@ export const cart = {
 			image: '../src/assets/clothes/918464_main.avif',
 		},
 		{
-			productId: '32332',
+			productId: 32332,
 			name: 'Brown Faux Suede Block Heel Ankle Boots',
 			size: '7',
 			colour: 'Brown',
@@ -59,57 +59,57 @@ export const cart = {
 
 export const cartItems = [
 	{
-		productId: '78925',
+		productId: 78925,
 		name: 'Beige Check Slim Waistcoat',
 		size: '36L',
 		colour: 'Beige',
 		quantity: 1,
 		price: 147.55,
-		image: 'src/assets/clothes/378162_main.avif',
+		image: '../src/assets/clothes/378162_main.avif',
 	},
 	{
-		productId: '84788',
+		productId: 84788,
 		name: 'Blue Denim Straight Leg Jeans',
 		size: '28',
 		colour: 'Blue',
 		quantity: 2,
 		price: 55.54,
-		image: 'src/assets/clothes/379474_main.avif',
+		image: '../src/assets/clothes/379474_main.avif',
 	},
 	{
-		productId: '65888',
+		productId: 65888,
 		name: 'Beige Short Sleeve Drape Side Midi Dress',
 		size: 'S',
 		colour: 'Beige',
 		quantity: 4,
 		price: 51.0,
-		image: 'src/assets/clothes/923560_main.avif',
+		image: '../src/assets/clothes/923560_main.avif',
 	},
 	{
-		productId: '21455',
+		productId: 21455,
 		name: 'Blue Denim High Waisted Wide Leg Trousers',
 		size: '14',
 		colour: 'Blue',
 		quantity: 1,
 		price: 42.0,
-		image: 'src/assets/clothes/919045_main.avif',
+		image: '../src/assets/clothes/919045_main.avif',
 	},
 	{
-		productId: '45788',
+		productId: 45788,
 		name: 'Blue Floral Wide Leg Plisse Trousers',
 		size: '10',
 		colour: 'Blue',
 		quantity: 1,
 		price: 49.22,
-		image: 'src/assets/clothes/918464_main.avif',
+		image: '../src/assets/clothes/918464_main.avif',
 	},
 	{
-		productId: '32332',
+		productId: 32332,
 		name: 'Brown Faux Suede Block Heel Ankle Boots',
 		size: '7',
 		colour: 'Brown',
 		quantity: 1,
 		price: 143.81,
-		image: 'src/assets/clothes/920111_main.avif',
+		image: '../src/assets/clothes/920111_main.avif',
 	},
 ];

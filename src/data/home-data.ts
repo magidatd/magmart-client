@@ -31,7 +31,7 @@ export const collectionData = {
 
 export const newArrivals = [
 	{
-		id: '1265',
+		id: 1265,
 		name: 'Blue Denim Long Sleeve Contrast Trim Jacket',
 		price: 56.12,
 		images: [
@@ -42,7 +42,7 @@ export const newArrivals = [
 		],
 	},
 	{
-		id: '2741',
+		id: 2741,
 		name: 'Black Regular Fit Essential Hoodie',
 		price: 35.0,
 		images: [
@@ -53,7 +53,7 @@ export const newArrivals = [
 		],
 	},
 	{
-		id: '5863',
+		id: 5863,
 		name: 'Stone Suede Shark Tooth Sole Trainers',
 		price: 89.22,
 		images: [
@@ -64,7 +64,7 @@ export const newArrivals = [
 		],
 	},
 	{
-		id: '4784',
+		id: 4784,
 		name: 'Beige Check High Neck Fitted Blazer',
 		price: 65.0,
 		images: [
@@ -75,7 +75,7 @@ export const newArrivals = [
 		],
 	},
 	{
-		id: '7885',
+		id: 7885,
 		name: 'Beige Check Sweetheart Neck Blazer',
 		price: 69.0,
 		images: [
@@ -86,7 +86,7 @@ export const newArrivals = [
 		],
 	},
 	{
-		id: '6748',
+		id: 6748,
 		name: 'Blue Demin Straight Leg Jeans',
 		price: 40.0,
 		images: [
@@ -97,7 +97,7 @@ export const newArrivals = [
 		],
 	},
 	{
-		id: '1127',
+		id: 1127,
 		name: 'Black Faux Leather Bomber Jacket',
 		price: 85.81,
 		images: [
@@ -108,7 +108,7 @@ export const newArrivals = [
 		],
 	},
 	{
-		id: '8977',
+		id: 8977,
 		name: 'Black Regular Fit Calico Embroidered Shirt',
 		price: 40.4,
 		images: [

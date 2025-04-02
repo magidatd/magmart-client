@@ -7,7 +7,7 @@ import { FaFilter } from 'react-icons/fa6';
 
 const CollectionsPage = () => {
 	interface Product {
-		id: string;
+		id: number;
 		name: string;
 		price: number;
 		image: string;

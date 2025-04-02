@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 interface OrderItem {
-	productId: string;
+	productId: number;
 	name: string;
 	size: string;
 	colour: string;
@@ -12,7 +12,7 @@ interface OrderItem {
 }
 
 interface OrderDetailsType {
-	id: string | undefined;
+	id: number;
 	createdAt: Date;
 	isPaid: boolean;
 	isDelivered: boolean;
@@ -34,7 +34,7 @@ const OrderDetails = () => {
 
 	useEffect(() => {
 		const mockOrderDetails = {
-			id: id,
+			id: id ? parseInt(id, 10) : 0,
 			createdAt: new Date(),
 			isPaid: true,
 			isDelivered: false,
@@ -47,7 +47,7 @@ const OrderDetails = () => {
 			},
 			orderItems: [
 				{
-					productId: '15545',
+					productId: 15545,
 					name: 'Grey Cuffed Cargo Trousers',
 					size: 'M',
 					colour: 'Grey',
@@ -56,7 +56,7 @@ const OrderDetails = () => {
 					image: '../../../src/assets/clothes/377582_main.avif',
 				},
 				{
-					productId: '54221',
+					productId: 54221,
 					name: 'Grey Denim Hybrid Wide Leg Joggers',
 					size: 'XL',
 					colour: 'Grey',
@@ -65,7 +65,7 @@ const OrderDetails = () => {
 					image: '../../../src/assets/clothes/919726_main.avif',
 				},
 				{
-					productId: '87889',
+					productId: 87889,
 					name: 'Red Caged Square Toe Heels',
 					size: '6UK',
 					colour: 'Red',
@@ -74,7 +74,7 @@ const OrderDetails = () => {
 					image: '../../../src/assets/clothes/920895_main.avif',
 				},
 				{
-					productId: '55888',
+					productId: 55888,
 					name: 'Blue Wide Leg Tipping Joggers',
 					size: 'XS',
 					colour: 'Blue',
@@ -83,7 +83,7 @@ const OrderDetails = () => {
 					image: '../../../src/assets/clothes/920269_main.avif',
 				},
 				{
-					productId: '32555',
+					productId: 32555,
 					name: 'Beige Webbing Front Raffia Tote Bag',
 					size: 'One Size',
 					colour: 'Beige',
@@ -92,7 +92,7 @@ const OrderDetails = () => {
 					image: '../../../src/assets/clothes/921355_main.avif',
 				},
 				{
-					productId: '67548',
+					productId: 67548,
 					name: 'Cream Long Sleeve Broderie Patchwork Shirt',
 					size: '6UK',
 					colour: 'Cream',

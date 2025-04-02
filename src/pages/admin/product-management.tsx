@@ -2,7 +2,7 @@ import { products } from '@/data/products';
 import { Link } from 'react-router-dom';
 
 const ProductMangement = () => {
-	const handleDeleteProduct = (productId: string) => {
+	const handleDeleteProduct = (productId: number) => {
 		if (window.confirm('Are you sure you want to delete this product?')) {
 			console.log('Delete Product Id: ', productId);
 		}

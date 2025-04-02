@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 interface Order {
-	id: string;
+	id: number;
 	createdAt: Date;
 	shippingAddress: {
 		city: string;
@@ -28,7 +28,7 @@ const MyOrders = () => {
 		}, 1000);
 	}, []);
 
-	const handleRowClick = (orderId: string) => {
+	const handleRowClick = (orderId: number) => {
 		navigate(`/order/${orderId}`);
 	};
 

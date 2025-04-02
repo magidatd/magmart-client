@@ -29,11 +29,11 @@ const UserManagement = () => {
 		setFormData({ name: '', email: '', password: '', role: 'customer' });
 	};
 
-	const handleRoleChange = (userId: string, newRole: string) => {
+	const handleRoleChange = (userId: number, newRole: string) => {
 		console.log('User Id: ', userId + ' New Role: ', newRole);
 	};
 
-	const handleDeleteUser = (userId: string) => {
+	const handleDeleteUser = (userId: number) => {
 		if (window.confirm('Are you sure you want to delete this user?')) {
 			console.log('Delete User Id: ', userId);
 		}

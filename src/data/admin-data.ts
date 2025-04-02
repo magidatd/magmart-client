@@ -1,6 +1,6 @@
 export const orders = [
 	{
-		id: '4477',
+		id: 4477,
 		user: {
 			name: 'John Doe',
 		},
@@ -8,7 +8,7 @@ export const orders = [
 		status: 'Processing',
 	},
 	{
-		id: '7888',
+		id: 7888,
 		user: {
 			name: 'Raph Moyo',
 		},
@@ -16,7 +16,7 @@ export const orders = [
 		status: 'Delivered',
 	},
 	{
-		id: '8755',
+		id: 8755,
 		user: {
 			name: 'Jane Ralston',
 		},
@@ -24,7 +24,7 @@ export const orders = [
 		status: 'Processing',
 	},
 	{
-		id: '4555',
+		id: 4555,
 		user: {
 			name: 'Mike Hondo',
 		},
@@ -32,7 +32,7 @@ export const orders = [
 		status: 'Cancelled',
 	},
 	{
-		id: '4473',
+		id: 4473,
 		user: {
 			name: 'Jim Kay',
 		},
@@ -40,7 +40,7 @@ export const orders = [
 		status: 'Processing',
 	},
 	{
-		id: '7884',
+		id: 7884,
 		user: {
 			name: 'Shingi Moyo',
 		},
@@ -48,7 +48,7 @@ export const orders = [
 		status: 'Delivered',
 	},
 	{
-		id: '8752',
+		id: 8752,
 		user: {
 			name: 'Maggie Brown',
 		},
@@ -56,7 +56,7 @@ export const orders = [
 		status: 'Processing',
 	},
 	{
-		id: '4551',
+		id: 4551,
 		user: {
 			name: 'Shane Mondo',
 		},
@@ -67,31 +67,31 @@ export const orders = [
 
 export const users = [
 	{
-		id: '23114',
+		id: 23114,
 		name: 'John Doe',
 		email: 'jdoe@example.com',
 		role: 'admin',
 	},
 	{
-		id: '32145',
+		id: 32145,
 		name: 'Mike Hondo',
 		email: 'mhondo@example.com',
 		role: 'customer',
 	},
 	{
-		id: '23155',
+		id: 23155,
 		name: 'Mary Kay',
 		email: 'mkay@example.com',
 		role: 'customer',
 	},
 	{
-		id: '23177',
+		id: 23177,
 		name: 'Susan Gondo',
 		email: 'sgondo@example.com',
 		role: 'customer',
 	},
 	{
-		id: '231444',
+		id: 231444,
 		name: 'Jim Hove',
 		email: 'jhove@example.com',
 		role: 'admin',

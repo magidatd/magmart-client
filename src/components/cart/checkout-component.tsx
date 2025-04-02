@@ -6,7 +6,7 @@ import PaypalButton from './paypal-button';
 interface CheckoutComponentProps {
 	cart: {
 		products: {
-			productId: string;
+			productId: number;
 			name: string;
 			size: string;
 			colour: string;

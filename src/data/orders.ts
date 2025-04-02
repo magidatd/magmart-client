@@ -1,6 +1,6 @@
 export const mockOrders = [
 	{
-		id: '12445',
+		id: 12445,
 		createdAt: new Date(),
 		shippingAddress: { city: 'Masvingo', country: 'Zimbabwe' },
 		orderItems: [
@@ -13,7 +13,7 @@ export const mockOrders = [
 		isPaid: true,
 	},
 	{
-		id: '12578',
+		id: 12578,
 		createdAt: new Date(),
 		shippingAddress: { city: 'Masvingo', country: 'Zimbabwe' },
 		orderItems: [
@@ -32,7 +32,7 @@ export const checkout = {
 	createdAt: new Date(),
 	checkoutItems: [
 		{
-			productId: '78925',
+			productId: 78925,
 			name: 'Beige Check Slim Waistcoat',
 			size: '36L',
 			colour: 'Beige',
@@ -41,7 +41,7 @@ export const checkout = {
 			image: '../src/assets/clothes/378162_main.avif',
 		},
 		{
-			productId: '84788',
+			productId: 84788,
 			name: 'Blue Denim Straight Leg Jeans',
 			size: '28',
 			colour: 'Blue',
@@ -50,7 +50,7 @@ export const checkout = {
 			image: '../src/assets/clothes/379474_main.avif',
 		},
 		{
-			productId: '65888',
+			productId: 65888,
 			name: 'Beige Short Sleeve Drape Side Midi Dress',
 			size: 'S',
 			colour: 'Beige',
@@ -59,7 +59,7 @@ export const checkout = {
 			image: '../src/assets/clothes/923560_main.avif',
 		},
 		{
-			productId: '21455',
+			productId: 21455,
 			name: 'Blue Denim High Waisted Wide Leg Trousers',
 			size: '14',
 			colour: 'Blue',
@@ -68,7 +68,7 @@ export const checkout = {
 			image: '../src/assets/clothes/919045_main.avif',
 		},
 		{
-			productId: '45788',
+			productId: 45788,
 			name: 'Blue Floral Wide Leg Plisse Trousers',
 			size: '10',
 			colour: 'Blue',
@@ -77,7 +77,7 @@ export const checkout = {
 			image: '../src/assets/clothes/918464_main.avif',
 		},
 		{
-			productId: '32332',
+			productId: 32332,
 			name: 'Brown Faux Suede Block Heel Ankle Boots',
 			size: '7',
 			colour: 'Brown',
@@ -95,37 +95,37 @@ export const checkout = {
 
 export const orders = [
 	{
-		id: '451122',
+		id: 451122,
 		user: { name: 'John Doe' },
 		totalPrice: 111,
 		status: 'Processing',
 	},
 	{
-		id: '451123',
+		id: 451123,
 		user: { name: 'Jin Moyo' },
 		totalPrice: 174,
 		status: 'Processing',
 	},
 	{
-		id: '451124',
+		id: 451124,
 		user: { name: 'Rob Kyes' },
 		totalPrice: 140,
 		status: 'Processing',
 	},
 	{
-		id: '451125',
+		id: 451125,
 		user: { name: 'Hebert Gondo' },
 		totalPrice: 114,
 		status: 'Processing',
 	},
 	{
-		id: '451126',
+		id: 451126,
 		user: { name: 'Elvira Ralston' },
 		totalPrice: 142,
 		status: 'Processing',
 	},
 	{
-		id: '451127',
+		id: 451127,
 		user: { name: 'John Donker' },
 		totalPrice: 114,
 		status: 'Processing',

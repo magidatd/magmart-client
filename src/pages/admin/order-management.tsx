@@ -1,7 +1,7 @@
 import { orders } from '@/data/orders';
 
 const OrderManagement = () => {
-	const handleStatusChange = (orderId: string, status: string) => {
+	const handleStatusChange = (orderId: number, status: string) => {
 		console.log({ id: orderId, status: status });
 	};
 
