@@ -1,7 +1,8 @@
 {
-	"name": "frontend",
+	"name": "magmart-client",
+	"author": "Tazvivinga D Magida - Magida Creative Studios",
 	"private": true,
-	"version": "0.0.0",
+	"version": "1.0.10a",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
